@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<!-- VERSION 2.0 By Alexey Volov -->
+	<head>
+		<!-- encoding -->
+		<meta charset="UTF-8" />
+		<!-- Mobile support -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Title and SEO -->
+		<title>Алексей Волов - Сайт Портфолио</title>
+		<meta name="description" content="Сайт портфолио" />
+		<meta name="keywords" content="html, css, javascript, создание сайтов, работы, вёрстка, Алексей Волов, сайт, портфолио, сайт," />
+
+		<!-- analitics -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-7GXBK65ZRP"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-7GXBK65ZRP');
+		</script>
+		<!-- Styles -->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400;500;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<!-- <link rel="stylesheet" href="./fonts/mplus1p/mplus1p.css"> -->
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<!-- Open Graph -->
+		<meta property="og:url" content="https://alexey-volov.ru/" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Алексей Волов - Сайт Портфолио" />
+		<meta property="og:description" content="Верстальщик сайтов" />
+		<meta property="og:image" content=".img/og-1.jpg"/>
+
+		<!-- Favicons -->
+		<!-- <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon"> -->
+		<link rel="shortcut icon" href="./img/favv.png">
+		<meta name="msapplication-TileColor" content="#00aba9">
+		<meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+	</head>
+	<body id="body">
+		<div class="progressbar">
+            <div class="progressbar-scale"></div>
+        </div>
+		<ul id="page-nav">
+			<li class="active">
+				<a href="#header"></a>
+			</li>
+			<li>
+				<a href="#portfolio"></a>
+			</li>
+			<li>
+				<a href="#howwork"></a>
+			</li>
+			<li>
+				<a href="#contacts"></a>
+			</li>
+		</ul>
+		
+
+		<header class="header" id="header">
+			<!-- блок с навигацией -->
+			<div class="header__wrapper">
+				<a href="/" class="header__logo line-bottom">
+					АВ
+				</a>
+				<nav class="header__nav">
+					<a class="header__nav-item" href="#">Главная</a>
+					<a class="header__nav-item" href="#portfolio">Работы</a>
+					<a class="header__nav-item" href="#contacts">Контакты</a>
+				</nav>
+				<div class="header__social">
+				<a href="https://www.instagram.com/volovny/" target="_blank">
+					<svg width="32" height="32" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+						<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+						</path>
+					</svg>
+				</a>
+				<a href="https://t.me/volov336" target="_blank">
+					<svg width="32" height="32" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram" class="svg-inline--fa fa-telegram fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+						<path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+						</path>
+					</svg>
+				</a>	
+
+				<a href="https://github.com/Alexey-Volov" target="_blank">
+					<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" focusable="false" viewBox="0 0 12 12">
+						<path fill="currentColor" d="M6 0C2.687 0 0 2.754 0 6.152c0 2.718 1.719 5.024 4.103 5.837.3.057.41-.133.41-.296 0-.146-.005-.533-.008-1.046-1.669.371-2.021-.825-2.021-.825-.273-.711-.666-.9-.666-.9-.545-.382.04-.374.04-.374.603.044.92.634.92.634.535.94 1.404.668 1.746.511.055-.397.21-.669.381-.822-1.332-.155-2.733-.683-2.733-3.04 0-.672.234-1.221.618-1.651-.062-.156-.268-.781.058-1.629 0 0 .504-.165 1.65.631A5.614 5.614 0 016 2.975a5.58 5.58 0 011.502.207c1.146-.796 1.649-.63 1.649-.63.327.847.121 1.472.06 1.628.384.43.616.979.616 1.65 0 2.364-1.403 2.884-2.74 3.036.216.19.408.565.408 1.14 0 .821-.007 1.485-.007 1.687 0 .164.108.356.412.296 2.382-.816 4.1-3.12 4.1-5.837C12 2.754 9.313 0 6 0"/>
+					  </svg>
+				</a>
+				</div>
+				<div class="nav-icon">
+					<div class="nav-icon__middle"></div>
+				</div>
+				<div class="navigation" id="navigation">
+					
+					<div class="navigation__wrapper">
+						<a href="/" class="header__logo line-bottom">
+							АВ
+						</a>
+						<nav class="navigation-menu">
+							<a class="navigation-menu__item" href="#">Главная</a>
+							<a class="navigation-menu__item" href="#portfolio">Работы</a>
+							<a class="navigation-menu__item" href="#contacts">Контакты</a>
+						</nav>
+						 <div class="navigation__social">
+						<a href="https://www.instagram.com/volovny/" target="_blank">
+							<svg width="32" height="32" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="svg-inline--fa fa-instagram fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+								<path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+								</path>
+							</svg>
+						</a>
+						<a href="https://t.me/volov336" target="_blank">
+							<svg width="32" height="32" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram" class="svg-inline--fa fa-telegram fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+								<path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+								</path>
+							</svg>
+						</a>	
+			
+						<a href="https://github.com/Alexey-Volov" target="_blank">
+							<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" focusable="false" viewBox="0 0 12 12">
+								<path fill="currentColor" d="M6 0C2.687 0 0 2.754 0 6.152c0 2.718 1.719 5.024 4.103 5.837.3.057.41-.133.41-.296 0-.146-.005-.533-.008-1.046-1.669.371-2.021-.825-2.021-.825-.273-.711-.666-.9-.666-.9-.545-.382.04-.374.04-.374.603.044.92.634.92.634.535.94 1.404.668 1.746.511.055-.397.21-.669.381-.822-1.332-.155-2.733-.683-2.733-3.04 0-.672.234-1.221.618-1.651-.062-.156-.268-.781.058-1.629 0 0 .504-.165 1.65.631A5.614 5.614 0 016 2.975a5.58 5.58 0 011.502.207c1.146-.796 1.649-.63 1.649-.63.327.847.121 1.472.06 1.628.384.43.616.979.616 1.65 0 2.364-1.403 2.884-2.74 3.036.216.19.408.565.408 1.14 0 .821-.007 1.485-.007 1.687 0 .164.108.356.412.296 2.382-.816 4.1-3.12 4.1-5.837C12 2.754 9.313 0 6 0"/>
+							  </svg>
+						</a>
+						</div>
+		
+						<div class="navigation-mail">
+							<a href="mailto:alexey.verstka@gmail.com">alexey.verstka@gmail.com</a>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			<!-- //блок с навигацией -->
+			<!-- блок с информацией -->
+			<div class="header__info">
+				<div class="container">
+					<div class="header__content">
+						<div class="header__about" >
+							<div class="header__title">
+								<h1>
+									<span class="line-bottom">Алексей</span>
+									<span class="line-bottom">Волов</span>
+								</h1>
+								
+							</div>
+
+							<div class="header__subtitle">
+								<p>Верстальщик сайтов, веб-разработчик. Оперативная верстка. Работаю с соблюдением сроков и выполнением ТЗ.</p>
+							</div>
+							<div class="header__button">
+								<a class="button" href="#skills">Познакомиться</a>
+								<a class="button button--gray" href="#contacts">Контакты</a>
+							</div>
+							
+						</div>
+						<div class="header__img">
+							<img src="./img/mee.jpg" alt="about">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //блок с информацией -->
+
+			<div class="header__bg">
+					<img src="./img/bg/bg.png" alt="bg">
+			</div>
+
+			<div class="header__skills" id="skills">
+				<div class="container">
+					<div class="header__skills-wrapper">
+						<div class="header__skills-list" data-aos="fade-up" data-aos-duration="3000" data-aos-once =" false ">
+							<h3 class="title-3">
+								Что я умею:
+							</h3>
+							<ul>
+								<li class="header__skills-item">Pixel perfect, полное соответствие макету.</li>
+								<li class="header__skills-item">Верстаю с сеткой или без.</li>
+								<li class="header__skills-item">Адаптивная верстка под мобильные устройства.</li>
+								<li class="header__skills-item">Оптимизация по retina экраны</li>
+								<li class="header__skills-item">С Bootstrap и без него.</li>
+								<li class="header__skills-item">Оптимизация под Google PageSpeed.</li>
+							</ul>
+							<a class="button button--work" href="#portfolio">Смотреть работы</a>
+						</div>
+						<div class="header__skills-contacts" data-aos="fade-up" data-aos-duration="3000" data-aos-once =" false ">
+							<h3 class="title-3">
+								На связи:
+							</h3>
+							<div class="social">
+								<a class="icons" href="https://www.instagram.com/volovny/" target="_blank"
+								>
+								<svg width="50" height="50" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill="currentColor" d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM24.0012 11.2C20.5249 11.2 20.0886 11.2152 18.7233 11.2773C17.3606 11.3397 16.4305 11.5555 15.6166 11.872C14.7747 12.1989 14.0606 12.6363 13.3491 13.348C12.6371 14.0595 12.1997 14.7736 11.8717 15.6152C11.5544 16.4294 11.3384 17.3598 11.2771 18.7219C11.216 20.0873 11.2 20.5238 11.2 24.0001C11.2 27.4764 11.2155 27.9114 11.2773 29.2767C11.34 30.6394 11.5557 31.5695 11.872 32.3834C12.1992 33.2253 12.6365 33.9394 13.3483 34.6509C14.0595 35.3629 14.7736 35.8013 15.615 36.1283C16.4294 36.4448 17.3598 36.6605 18.7222 36.7229C20.0876 36.7851 20.5236 36.8003 23.9996 36.8003C27.4762 36.8003 27.9111 36.7851 29.2765 36.7229C30.6391 36.6605 31.5703 36.4448 32.3848 36.1283C33.2264 35.8013 33.9394 35.3629 34.6506 34.6509C35.3626 33.9394 35.8 33.2253 36.128 32.3837C36.4427 31.5695 36.6587 30.6391 36.7227 29.277C36.784 27.9116 36.8 27.4764 36.8 24.0001C36.8 20.5238 36.784 20.0876 36.7227 18.7222C36.6587 17.3595 36.4427 16.4294 36.128 15.6155C35.8 14.7736 35.3626 14.0595 34.6506 13.348C33.9386 12.636 33.2266 12.1987 32.384 11.872C31.5679 11.5555 30.6373 11.3397 29.2746 11.2773C27.9092 11.2152 27.4746 11.2 23.9972 11.2H24.0012Z"/>
+									<path fill="currentColor" d="M22.8529 13.5067C23.1937 13.5062 23.574 13.5067 24.0012 13.5067C27.4188 13.5067 27.8239 13.519 29.1735 13.5803C30.4215 13.6374 31.0989 13.8459 31.5501 14.0211C32.1474 14.2531 32.5733 14.5304 33.021 14.9784C33.469 15.4264 33.7464 15.8531 33.9789 16.4505C34.1541 16.9011 34.3629 17.5785 34.4197 18.8265C34.481 20.1758 34.4944 20.5812 34.4944 23.9972C34.4944 27.4132 34.481 27.8186 34.4197 29.1679C34.3626 30.4159 34.1541 31.0933 33.9789 31.5439C33.7469 32.1413 33.469 32.5666 33.021 33.0144C32.573 33.4624 32.1477 33.7397 31.5501 33.9717C31.0994 34.1477 30.4215 34.3557 29.1735 34.4128C27.8242 34.4741 27.4188 34.4874 24.0012 34.4874C20.5833 34.4874 20.1782 34.4741 18.8289 34.4128C17.5809 34.3552 16.9035 34.1466 16.4521 33.9714C15.8547 33.7394 15.428 33.4621 14.98 33.0141C14.532 32.5661 14.2547 32.1405 14.0222 31.5429C13.847 31.0922 13.6382 30.4149 13.5814 29.1669C13.52 27.8175 13.5078 27.4122 13.5078 23.994C13.5078 20.5758 13.52 20.1726 13.5814 18.8233C13.6384 17.5753 13.847 16.8979 14.0222 16.4467C14.2542 15.8494 14.532 15.4227 14.98 14.9747C15.428 14.5267 15.8547 14.2494 16.4521 14.0168C16.9033 13.8408 17.5809 13.6328 18.8289 13.5755C20.0097 13.5222 20.4673 13.5062 22.8529 13.5035V13.5067ZM30.8338 15.632C29.9858 15.632 29.2978 16.3193 29.2978 17.1675C29.2978 18.0155 29.9858 18.7035 30.8338 18.7035C31.6818 18.7035 32.3698 18.0155 32.3698 17.1675C32.3698 16.3195 31.6818 15.632 30.8338 15.632ZM24.0012 17.4267C20.371 17.4267 17.4278 20.37 17.4278 24.0001C17.4278 27.6303 20.371 30.5722 24.0012 30.5722C27.6314 30.5722 30.5735 27.6303 30.5735 24.0001C30.5735 20.37 27.6314 17.4267 24.0012 17.4267Z"/>
+									<path fill="currentColor" d="M24.0012 19.7334C26.3575 19.7334 28.2679 21.6436 28.2679 24.0001C28.2679 26.3564 26.3575 28.2668 24.0012 28.2668C21.6446 28.2668 19.7345 26.3564 19.7345 24.0001C19.7345 21.6436 21.6446 19.7334 24.0012 19.7334Z"/>
+								</svg>
+								</a>
+								<a class="icons" href="https://t.me/volov336" target="_blank">
+									<svg width="50" height="50" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram" class="svg-inline--fa fa-telegram fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+										<path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+										</path>
+									</svg>
+								</a>	
+								<a class="icons" href="https://vk.com/ib2282284" target="_blank">
+									<svg width="50" height="50" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill="currentColor" clip-rule="evenodd" d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM25.2555 31.8761C25.2555 31.8761 25.7175 31.8257 25.9541 31.5762C26.1707 31.3476 26.1632 30.9162 26.1632 30.9162C26.1632 30.9162 26.1344 28.9018 27.0873 28.6043C28.0264 28.3118 29.2321 30.5524 30.5118 31.414C31.4784 32.0654 32.2121 31.9228 32.2121 31.9228L35.6316 31.8761C35.6316 31.8761 37.4196 31.7679 36.5719 30.3877C36.5018 30.2746 36.0773 29.3664 34.0302 27.5006C31.8853 25.5477 32.1733 25.8635 34.7551 22.4849C36.3278 20.4274 36.9563 19.1713 36.7597 18.6343C36.5732 18.1205 35.4162 18.2569 35.4162 18.2569L31.5673 18.2803C31.5673 18.2803 31.2818 18.2422 31.0702 18.3663C30.8636 18.488 30.7296 18.7719 30.7296 18.7719C30.7296 18.7719 30.1211 20.3635 29.3085 21.7179C27.5944 24.5743 26.9095 24.7254 26.629 24.5485C25.9767 24.1343 26.1394 22.8868 26.1394 22.0006C26.1394 19.2316 26.5677 18.0775 25.3068 17.7788C24.8886 17.6793 24.5806 17.6141 23.51 17.6031C22.1365 17.5896 20.9745 17.608 20.3159 17.9239C19.8777 18.134 19.5396 18.6035 19.7462 18.6306C20.0004 18.6637 20.5764 18.783 20.8819 19.191C21.2763 19.7183 21.2625 20.9006 21.2625 20.9006C21.2625 20.9006 21.4892 24.1601 20.7329 24.5644C20.2145 24.8422 19.5033 24.2756 17.9745 21.6835C17.192 20.3562 16.601 18.8887 16.601 18.8887C16.601 18.8887 16.487 18.6146 16.2829 18.4671C16.0363 18.2889 15.6919 18.2336 15.6919 18.2336L12.0346 18.2569C12.0346 18.2569 11.4849 18.2717 11.2833 18.5064C11.1043 18.7141 11.2695 19.1455 11.2695 19.1455C11.2695 19.1455 14.1331 25.7222 17.376 29.037C20.3497 32.0752 23.7254 31.8761 23.7254 31.8761H25.2555Z"/>
+									</svg>
+								</a>
+							</div>
+
+							<div class="header__skills-mail">
+								<a href="mailto:alexey.verstka@gmail.com">alexey.verstka@gmail.com</a>
+								<a class="none" href="resume.pdf" download>Резюме</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="overlay"></div>
+		</header>
+
+		<main>
+			<section class="section-portfolio" id="portfolio" data-aos="fade-up" data-aos-duration="1500" data-aos-once =" false ">
+				<div class="container">
+					<h2 class="title-2 line-bottom">Портфолио</h2>
+					<div class="section-portfolio__wrapper">
+						<div class="section-portfolio__menu">
+							<!-- <div class="menu-list">
+								<button class="menu-item menu-item--active control-active" data-filter="all">Все работы</button>
+								<button class="menu-item" data-filter=".boots">Bootstrap</button>
+								<button class="menu-item" data-filter=".wp">WordPress</button>
+								<button class="menu-item" data-filter=".frontend">Frontend</button>
+							</div> -->
+						<div class="section-portfolio__card" id="portfolio-projects">
+							<a class="cardd card--big mix boots" href="https://alexey-volov.github.io/forest-travel.io/" target="_blank">
+								<div class="cardd-img">
+									<span>Смотреть проект</span>
+									<img src="./img/porfolio-section/forest.png" alt="card">
+								</div>
+								<div class="card-info">
+									<h4>Верстка “Форест тревел”</h4>
+									<p>Верстка многостраничного сайта.</p>
+								</div>						
+							</a>
+							<a class="cardd card--big mix wp" href="https://alexey-volov.github.io/unit.io/" target="_blank">
+								<div class="cardd-img">
+									<span>Смотреть проект</span>
+									<img src="./img/porfolio-section/unit.png" alt="card">
+								</div>
+								<div class="card-info">
+									<h4>Проект "ЮНИТ"</h4>
+									<p>Верстка лендинга.</p>
+								</div>						
+							</a>
+							<a class="cardd mix frontend" href="https://alexey-volov.github.io/GhostPay/">
+								<div class="cardd-img">
+									<span>Смотреть проект</span>
+									<img src="./img/porfolio-section/ghostpay.jpg" alt="card">
+								</div>
+								<div class="card-info">
+									<h4>Верстка проекта "GhostPay"</h4>
+									<p>Верстка лендинга.</p>
+								</div>						
+							</a>
+							<!-- <a class="cardd mix frontend" href="https://alexey-volov.github.io/freehand.io/">
+								<div class="cardd-img">
+									<span>Смотреть проект</span>
+									<img src="./img/porfolio-section/free.jpg" alt="card">
+								</div>
+								<div class="card-info">
+									<h4>Верстка “freehand”</h4>
+									<p>Верстка лендинга.</p>
+								</div>						
+							</a> -->
+							<!-- <a class="cardd mix frontend" href="#!">
+								<div class="cardd-img">
+									<span>Смотреть проект</span>
+									<img src="./img/porfolio-section/fruit.jpg" alt="card">
+								</div>
+								<div class="card-info">
+									<h4>Верстка “Мир Авто”</h4>
+									<p>Верстка многостраничного сайта.</p>
+								</div>						
+							</a> -->
+						</div>
+
+						<!-- <a class="section-portfolio-link" href="#">Смотреть все работы</a> -->
+					</div>
+				</div>
+			</div>
+			</section>
+			<section class="timeline" id="howwork">
+				<div class="container">
+					<div class="timeline-title">
+						<h2 class="title-2 line-bottom">Как я работаю</h2>
+					</div>
+					<div class="timeline-block" data-aos="fade-up" data-aos-duration="3000">
+						<div class="timeline-block__item">
+							<div class="timeline-block__text">
+								<h4 class="line-bottom">Оцениваю макет</h4>
+								<p>Оцениваю объем работы, сложность, нюансы. Задаю вопросы.</p>
+								<p>Время: 2 - 4 часа</p>
+							</div>
+							<div class="timeline-block__icon">
+								<div class="timeline-img">
+									<!-- <img src="./img/work-icons/layers.svg" alt="layers"> -->
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+										<image id="layers.svg" width="40" height="40" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABa1BMVEX/z4//////z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z4//z48AAACBEcZhAAAAd3RSTlMAAAFBB2PUFHzpJ5f3P7L+BFrMD3TjII7zNan8PT45/Tgpm/gWgesJZthMvjKk+xyK8AsMb98vovrAAgNVxzvZaDzsgxej+Z0sG4jvuEVt3tNgBlTF6HsTqyGQ9BB15JnlhxoFW86J55w6MLxKS73WZQjqgBW1RL34ZkwAAAABYktHRHjW2+RGAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QcFEScdq4QbSAAAAgBJREFUOMuNlfdbwjAQhkNRQEURFBcqFNACAoooIg7cTGUIqLgH7r3y70vT2DSUAt8v9HLvU5LL3VcAZGLUaoZEKiwZ1taugVDT3tYE1Oo6IFKHTtsA7OzSQ1H6rk4FsLvHACkZerrlYK/RBOvIZOylwL5+M1SQub9PBAcGh2ADDQ0OIHB4xAKbyDIyrAKjzShBY2Dc2gpnsQHA2h3NMIedRYdxTkw2wiYnnGJ5OJdbCXO7OKrgjGeqHjblYeRX6PX5acrv8yo0xfRMgGCBmenappglaHBuXsDm54KkzWYRGFoIL3oiIrq0vALhyvKS2LgRz2J4IaQCq6jg0TVOslkveebWonzesA7WcRNubG7Jx2drc0PIWlerf70dFoKdWJzG4rEdIRPeDqHDJJIpfNL0rjh/zG4aL6aSCbE8wb0MXs3m8vxCPpfFC5m9IFXHyH4BZ4qlg4NSEQeF/Yi84LZD3MF+fEOWQ5vCzRyVj8nNHJePGhjAyemZgJ2dntQaAHt+cXlF0OubCoSVm2tiKYnbu/tq49r4jVXvSPLahwdJ8Ojjy2wdB2N4S0/PDJCJeXnF6VHJuL69f9AY9477Ho2r1AA+v74J5vzCk/RvAJSl6O2ssMLasbFJLYU2qZ9fAH5/cFBrUkii7Wk0wm9d20Nq0Uh5tWjNvFo0e1Tlup+PP4sgOqirk/JeAAAAAElFTkSuQmCC"/>
+									</svg>
+								</div>       
+							</div>
+						</div>
+						<div class="timeline-block__item">
+							<div class="timeline-block__text">
+								<h4 class="line-bottom">ТЗ, смета и график работ</h4>
+								<p>Согласовываем техническое задание и график работ по проекту. Осмечиваю стоимость по этапам работы.</p>
+								<p>Время: 2 - 4 часа</p>
+							</div>
+							<div class="timeline-block__icon">
+								<div class="timeline-img">
+									<!-- <img src="./img/work-icons/presentation.svg" alt=""> -->
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="40" viewBox="0 0 39 40">
+										<image id="presentation-chart.svg" width="39" height="40" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAoCAMAAABKKxPSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABPlBMVEX/W1v/////W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1v/W1sAAACZVJqLAAAAaHRSTlMAAAmNvsCPdnu1t7GuZmEBY5Aq4DD52/3cIDr78VIehBy/8zd45CMH4fZCJAOleUMYiOslnbBrLZe0af5zK37vlaHCLgrw7Ubm5QIQYIBwW+NOPMoiq54aMfX6sx2MJrJl0kVHeq2kYjiuGZgAAAABYktHRGm8a8S0AAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH5QcFESgESHevRwAAAUxJREFUOMu902k3w0AUBuArgtoSIlpLUKrWUmoJiqLWiNp3Sq39/7/AnUyqTc8kM/3A+6G5c/Kc0zszuSDVyw28yI0SNBVFEoJmIdcCrUKuDdqFnAJqRyc/igq81NHU4LQuXjTH6dxd6P/rusMREdfTC339TGcMDA6VWRTfDbPcSAxXo+4iPoaL8QmGm5xyDpbC+DSWiRlGfy4DmK1mHhdJEjNHfuaLqQV8qIusc1kiYtkgLULIJGyFeX6rWK3hlmPuv1cwj0uvb2ySZ8akbot3HymT9si9NwI9zO/ejO2dP/lefpN13O4eh+1LdI4ODgPZUbI0b9ZxUKwa57Iqum3bmoA7wZZyXKeenqELn3PcxaW7SVkPcFfX5dNI39z6ubt7Rzw80mnMPPm4Z/ph5yH/4lQ5H/eK7wp0mt4KWL/7uMTHp2KVauXru7K/H7wYTLx7XQU9AAAAAElFTkSuQmCC"/>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="timeline-block__item">
+							<div class="timeline-block__text">
+								<h4 class="line-bottom">Вы держите руку на пульсе</h4>
+								<p>Выдаю клиенту доступ к GitHub репозиторию и доске Trello. Вы в любое время можете видеть актуальное состояние проекта и задач.</p>
+								<p>Время: 2 часа</p>
+							</div>
+							<div class="timeline-block__icon">
+								<div class="timeline-img">
+									<!-- <img src="./img/work-icons/hours.svg" alt="clock"> -->
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="40" viewBox="0 0 36 40">
+										<image id="_24-hours.svg" data-name="24-hours.svg" width="36" height="40" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAoCAMAAAChHKjRAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACB1BMVEWsdO7///+sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO6sdO4AAAB0jb5aAAAAq3RSTlMAAJBT8KsW7VuxGw4zUGD2KofQ/rkePbvyIhOm0xQ35PyFB0wyQfjgiUgZBvuABR/u21QEzDBHIAHFmQj5e4rEAmR5KSHIZeKOJuNfzrzAPHXGzXZmkie/EP3CrEkSTWdo80UY6U5LeiOiqny6DX2cYbJznd2aLCWTcMOtry3aDKDxT6E/2LDHGoRE9IZecd7WvVpDXbTXK9Lc939+V1VCEa62XBWU6+eNjIPnTXqMAAAAAWJLR0SsV2XyiwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+UHBREnNgc44ggAAAJ/SURBVDjLjZT5WxJhEMcHtaIoMShNUwOtKMAjMd1SOy0tKzPTJOigSLKMtFPKdLOgu+yiQjvVLOef7H1nd1l2l57H+WXm/c5n971mXgCD5eRmjkzMjAzk4ZKli4BwmXkREOLyFf+HLCtX5Vs5hHn52aGC1TY7qrZmrREqLEKdrSvWQSXr0WClZVqofIMBcTgrtNNVWg2MbaNu4Zs2yxnXlq1uj4sF3qpq3RHU1ErItjofHzKofruy1oZGCRJ2SMzOJkl3Nbf4ZKR6F+7eQ9BeidmnfJy7X4laDzD9IIc8bcS0G+/nEF3QYQ+DOog54jNCwlFKdTDoGEWdAE3Hu1wnuiX4ZH0PC3odPHXKBH1+HnQB+E4THaA9sSDIfIAr/jNwllLnAM4jhmwsvABwMcw8r4JLlOyHCPnLAAOIhXAF8SoIg+iQoGs0TRSuc2cVAIbswwDDiDegG+03JQhu8ext/i27Di6wld5xoP9uuRdHYjJ0j2fvw2gaAnjAjszpG8O28WgmNAoidw+JmQghPhIeI8YTccQnQ0yK86wITlr4UybwLTwT4LlSLC8AKrw8eAmvSGAt9Jq5N6I40tsiiuIk4tt3AO8p+QGKyX8ESMo/oNNsR5xgjraOrNTHuLd/AvNnF7dkJYc6Q19KANwpKjN2d1NEDwray6UrHKDUtEnBMWasgq+USLl50fVQ7P+mZ75L3ZFDlfkjLFEx7YwdzSSH+6RGCMr7KipQkdafstivtNSULNh/zfBThdm6gEOWqtTmnFObsjZZ+lsdzWW2+TRmtaj2wQjOG5H5Bv3TY/mT0iKpv5Ysj9hsZFJFkpEy3YORthrzgphIiAszjWmJQ/8AR4qfHUS4VjMAAAAASUVORK5CYII="/>
+									</svg>
+								</div>
+							</div>
+						</div>
+						<div class="timeline-block__item">
+							<div class="timeline-block__text">
+								<h4 class="line-bottom">Выполняю каждый этап</h4>
+								<p>Поочередно выполняю каждый этап работы. Передаю результаты. Заказчик производит поэтапную оплату.</p>
+								<p>Время: 2 - 4 часа</p>
+							</div>
+							<div class="timeline-block__icon">
+								<div class="timeline-img">
+									<!-- <img src="./img/work-icons/code.svg" alt="Code"> -->
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42" height="35" viewBox="0 0 42 35">
+										<image id="code-alt.svg" width="42" height="35" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAjCAMAAADVEmihAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABrVBMVEVR5cv///9R5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5ctR5csAAADa5gCnAAAAjXRSTlMAADBWIpP8ZzX3DXwquvgHBPTAN4N0RAVbjW4SswsKX39QKc7pJgLuyBraJGX2tS+KpF4BkO1sTOCGndaq/hCXkWLo0GOJZieSYCzNZFQr2NKyCaMXD788twYfmhb6XE5z/XKbHna4rRSludziIBii4d8V5KjrJd2UzMbRTxGplULD8M9h+0iLLQxvVS5YQmjLAAAAAWJLR0SOggWzbwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB+UHBREpDF+3FjQAAAHySURBVDjLjZPnWxNBEMYngAmgpKABg4Bo4CgJWE4IFlCJJgokFAstAZViQMASBBSlShG8/9nb2Zkk5OF4dr/s+877S25vbhbg7FVQWCSFLbMsyAuGYXcoocWGuUpKVdCLAjUuqaBlgnS6FFC3R6DlKme9jM+/ooJ6Ea2wQiuv+qquka4WpL0GoPZ63Q13PnrTb6b1Dai1RoE2ATS3iD1wGg224jPb0NxCfRvgDgrP3RxUv2fI1Y62A3UIoJPK93VG9QdUMh4i+kjIrm4AP9cf64Q+4YrxFNEeIcOmeJYJnks0wt4TRDKK5oWQVU7OXgq0t4RcH41dP7oY6vgA/03UBtogmaFh6sYrtK+lefOWYr8GIyRHx7jF+N4D7GqZHYEQqSBn42gn2NocBIQgQUdNFlI2iXaS0amkzJ0JgHf0q/cfZDaNbobICJHGrNkBfY4b8jElQnznTgl2z3O2oIu+pj6xX1wCWEb1WR77Cydfv8mvFUhzZQUghqIf0RWufw/wuKwyuwawjqIh2zZzpePZIWz+IWs/AcJi75FlGpeN8dx5dfmw+At+d4l9M7dvW8N5F2Z7Z3fP/O7yi3RQ8U/Lft+B1TU8RPQoW7C+sU2CbNQU0L92HDJQQOUN9KqgqWTeUc8567HZLB8oobB68g/ORv8Dba4QUwYMgpIAAAAASUVORK5CYII="/>
+									</svg>
+								</div>
+							</div>
+						</div>
+						
+						<div class="timeline-block__item">
+							<div class="timeline-block__text">
+								<h4 class="line-bottom">Финальное ревью проекта</h4>
+								<p>Проект готов. Финальное ревью и полировка до идеального состояния. Передаю файлы проекта, заливаю сайт на хостинг заказчика.</p>
+								<p>Время: 2 - 4 часа</p>
+							</div>
+							<div class="timeline-block__icon">
+								<div class="timeline-img">
+									<!-- <img src="./img/work-icons/diamond.svg" alt=""> -->
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="35" viewBox="0 0 40 35">
+										<image id="diamond.svg" width="40" height="35" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAjCAMAAADR57icAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABjFBMVEV8wP////98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP98wP8AAAAkpKa7AAAAgnRSTlMAAFSuwLZpA4SpAnCQW3VI+u07IKevsqQs3jf2OQZLUOoFJutFKez7SulM8jEc5F6Vqv3nIRPWchL5M/gPY9kUCsj80N3cx4+OpSPvQB8QYcXKXeFEZrcIGAS8aD3amJOhd3qcbbrXQmS0uGBG2O4lJyjwLjLl26xrqL6Wb50iPo2UWTbxQQAAAAFiS0dEg/y0z9IAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAHdElNRQflBwURKQUma66QAAAB+ElEQVQ4y42T50MTQRTEBxAOqQmHQIAgIFUEUaoSigKCAULRoBSlGnpHqbb7y32ze5diEsh8yJvd+112Z98e4Cg940GcMrOMNFthLttKqIc5/4G5VhLlxYL5VlIVRIOFLplxF5lmsdRHplkipdQ0yzwk8yNgeYWMKyoBr1tMFfBYSnUNUPtEjKvOAesbZNjYBA00C+DlzFPnL1qeabC1jQs85ysZ3D1Nu5gXNFUvxXV0EuzqJtfD2d5X4l6rzYjp89H18+nAYBqG3tC9HaZGaJUbphtVjjmtd0MYs1LSON6nBhbD706Fm6gFJrkJz1RANC1uJqA0K3aOpvMDI3zk8QT5yrzBg+K5e5n1U5/Yz2IWFvl0SR94nuUcH1tWSbMs5gvNVz5bsTtjzHMUFLcqdY1T62I2pG7yyTfD6bUvxJZuAdtSdzizK2YP2GdfDgKR26OiHx7hmCVH1mgR48fJqZqOvo8q+kEAzVLOgHMp39H7g5dlK/aGB/VmLuT3Ut/3q5prO3DsN6Oi39ySABQfDhwL6ugbak21g58c78Z/hTq6kv/YcSEf4sFI1/e2beP2IxGoo3P9VV1dk0gM6ujSO4+u7FViUEd3pLqfBNTRtdR9SgZGRQ/5cBcYjt7wC3eDdnTXb9wHYolgP+4HsWJZf5AKaLT/NeLBf0WfPrvtOxa2AAAAAElFTkSuQmCC"/>
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="contacts" id="contacts">
+				<div class="container">
+					<div class="contacts-title">
+						<h2 class="title-2 line-bottom">Контакты</h2>
+					</div>
+					<div class="contacts-wrapper">
+						<div class="contacts-info" data-aos="fade-right" data-aos-duration="1500" data-aos-once =" false ">
+							<div class="contacts-info__desc">
+								<p>Если вы ищите специалиста по верстке сайтов, front-end разработчика в команду или для работы над проектом —  напишите мне.</p>
+							</div>
+							<ul class="contacts-info__list">
+								<li class="contacts-info__item"><span>Email</span><a href="mailto:alexey.verstka@gmail.com">alexey.verstka@gmail.com</a></li>
+								<!-- tel -->
+								<li class="contacts-info__item"><span>Адрес</span><span>Россия, Архангельск</span></li>
+							</ul>
+							<div class="social">
+								<a class="icons" href="https://www.instagram.com/volovny/" target="_blank">
+									<svg width="50" height="50" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill="currentColor" d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM24.0012 11.2C20.5249 11.2 20.0886 11.2152 18.7233 11.2773C17.3606 11.3397 16.4305 11.5555 15.6166 11.872C14.7747 12.1989 14.0606 12.6363 13.3491 13.348C12.6371 14.0595 12.1997 14.7736 11.8717 15.6152C11.5544 16.4294 11.3384 17.3598 11.2771 18.7219C11.216 20.0873 11.2 20.5238 11.2 24.0001C11.2 27.4764 11.2155 27.9114 11.2773 29.2767C11.34 30.6394 11.5557 31.5695 11.872 32.3834C12.1992 33.2253 12.6365 33.9394 13.3483 34.6509C14.0595 35.3629 14.7736 35.8013 15.615 36.1283C16.4294 36.4448 17.3598 36.6605 18.7222 36.7229C20.0876 36.7851 20.5236 36.8003 23.9996 36.8003C27.4762 36.8003 27.9111 36.7851 29.2765 36.7229C30.6391 36.6605 31.5703 36.4448 32.3848 36.1283C33.2264 35.8013 33.9394 35.3629 34.6506 34.6509C35.3626 33.9394 35.8 33.2253 36.128 32.3837C36.4427 31.5695 36.6587 30.6391 36.7227 29.277C36.784 27.9116 36.8 27.4764 36.8 24.0001C36.8 20.5238 36.784 20.0876 36.7227 18.7222C36.6587 17.3595 36.4427 16.4294 36.128 15.6155C35.8 14.7736 35.3626 14.0595 34.6506 13.348C33.9386 12.636 33.2266 12.1987 32.384 11.872C31.5679 11.5555 30.6373 11.3397 29.2746 11.2773C27.9092 11.2152 27.4746 11.2 23.9972 11.2H24.0012Z"/>
+										<path fill="currentColor" d="M22.8529 13.5067C23.1937 13.5062 23.574 13.5067 24.0012 13.5067C27.4188 13.5067 27.8239 13.519 29.1735 13.5803C30.4215 13.6374 31.0989 13.8459 31.5501 14.0211C32.1474 14.2531 32.5733 14.5304 33.021 14.9784C33.469 15.4264 33.7464 15.8531 33.9789 16.4505C34.1541 16.9011 34.3629 17.5785 34.4197 18.8265C34.481 20.1758 34.4944 20.5812 34.4944 23.9972C34.4944 27.4132 34.481 27.8186 34.4197 29.1679C34.3626 30.4159 34.1541 31.0933 33.9789 31.5439C33.7469 32.1413 33.469 32.5666 33.021 33.0144C32.573 33.4624 32.1477 33.7397 31.5501 33.9717C31.0994 34.1477 30.4215 34.3557 29.1735 34.4128C27.8242 34.4741 27.4188 34.4874 24.0012 34.4874C20.5833 34.4874 20.1782 34.4741 18.8289 34.4128C17.5809 34.3552 16.9035 34.1466 16.4521 33.9714C15.8547 33.7394 15.428 33.4621 14.98 33.0141C14.532 32.5661 14.2547 32.1405 14.0222 31.5429C13.847 31.0922 13.6382 30.4149 13.5814 29.1669C13.52 27.8175 13.5078 27.4122 13.5078 23.994C13.5078 20.5758 13.52 20.1726 13.5814 18.8233C13.6384 17.5753 13.847 16.8979 14.0222 16.4467C14.2542 15.8494 14.532 15.4227 14.98 14.9747C15.428 14.5267 15.8547 14.2494 16.4521 14.0168C16.9033 13.8408 17.5809 13.6328 18.8289 13.5755C20.0097 13.5222 20.4673 13.5062 22.8529 13.5035V13.5067ZM30.8338 15.632C29.9858 15.632 29.2978 16.3193 29.2978 17.1675C29.2978 18.0155 29.9858 18.7035 30.8338 18.7035C31.6818 18.7035 32.3698 18.0155 32.3698 17.1675C32.3698 16.3195 31.6818 15.632 30.8338 15.632ZM24.0012 17.4267C20.371 17.4267 17.4278 20.37 17.4278 24.0001C17.4278 27.6303 20.371 30.5722 24.0012 30.5722C27.6314 30.5722 30.5735 27.6303 30.5735 24.0001C30.5735 20.37 27.6314 17.4267 24.0012 17.4267Z" />
+										<path fill="currentColor" d="M24.0012 19.7334C26.3575 19.7334 28.2679 21.6436 28.2679 24.0001C28.2679 26.3564 26.3575 28.2668 24.0012 28.2668C21.6446 28.2668 19.7345 26.3564 19.7345 24.0001C19.7345 21.6436 21.6446 19.7334 24.0012 19.7334Z" />
+									</svg>
+								</a>
+								<a class="icons" href="https://t.me/volov336" target="_blank">
+									<svg width="50" height="50" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram" class="svg-inline--fa fa-telegram fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+										<path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+										</path>
+									</svg>
+								</a>	
+								<a class="icons" href="https://vk.com/ib2282284" target="_blank">
+									<svg width="50" height="50" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill="currentColor" clip-rule="evenodd" d="M0 24C0 10.7452 10.7452 0 24 0C37.2548 0 48 10.7452 48 24C48 37.2548 37.2548 48 24 48C10.7452 48 0 37.2548 0 24ZM25.2555 31.8761C25.2555 31.8761 25.7175 31.8257 25.9541 31.5762C26.1707 31.3476 26.1632 30.9162 26.1632 30.9162C26.1632 30.9162 26.1344 28.9018 27.0873 28.6043C28.0264 28.3118 29.2321 30.5524 30.5118 31.414C31.4784 32.0654 32.2121 31.9228 32.2121 31.9228L35.6316 31.8761C35.6316 31.8761 37.4196 31.7679 36.5719 30.3877C36.5018 30.2746 36.0773 29.3664 34.0302 27.5006C31.8853 25.5477 32.1733 25.8635 34.7551 22.4849C36.3278 20.4274 36.9563 19.1713 36.7597 18.6343C36.5732 18.1205 35.4162 18.2569 35.4162 18.2569L31.5673 18.2803C31.5673 18.2803 31.2818 18.2422 31.0702 18.3663C30.8636 18.488 30.7296 18.7719 30.7296 18.7719C30.7296 18.7719 30.1211 20.3635 29.3085 21.7179C27.5944 24.5743 26.9095 24.7254 26.629 24.5485C25.9767 24.1343 26.1394 22.8868 26.1394 22.0006C26.1394 19.2316 26.5677 18.0775 25.3068 17.7788C24.8886 17.6793 24.5806 17.6141 23.51 17.6031C22.1365 17.5896 20.9745 17.608 20.3159 17.9239C19.8777 18.134 19.5396 18.6035 19.7462 18.6306C20.0004 18.6637 20.5764 18.783 20.8819 19.191C21.2763 19.7183 21.2625 20.9006 21.2625 20.9006C21.2625 20.9006 21.4892 24.1601 20.7329 24.5644C20.2145 24.8422 19.5033 24.2756 17.9745 21.6835C17.192 20.3562 16.601 18.8887 16.601 18.8887C16.601 18.8887 16.487 18.6146 16.2829 18.4671C16.0363 18.2889 15.6919 18.2336 15.6919 18.2336L12.0346 18.2569C12.0346 18.2569 11.4849 18.2717 11.2833 18.5064C11.1043 18.7141 11.2695 19.1455 11.2695 19.1455C11.2695 19.1455 14.1331 25.7222 17.376 29.037C20.3497 32.0752 23.7254 31.8761 23.7254 31.8761H25.2555Z"/>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="form" data-aos="fade-left" data-aos-duration="1500" data-aos-once =" false ">
+							<form class="contact-form" action="./php/mail.php">
+								<div class="form-item">
+									<span class="fake-placeholder">Ваш Email</span>
+									<input class="form-field" type="email" name="Email" >
+								</div>
+								<div class="form-item">
+									<span class="fake-placeholder">Тема письма</span>
+									<input class="form-field" type="text" name="subject">
+								</div>
+								<div class="form-item">
+									<span class="fake-placeholder">Сообщение</span>
+									<textarea class="form-field" name="message"></textarea>
+								</div>
+								<div class="form-item">
+									<input class="button" type="submit" value="Отправить">
+								</div>
+							</form>
+							<div id="answer"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__wrapper">
+					<p>© <span id="year"></span> — Алексей Волов</p>
+					<p>Веб-разработчик из Архангельска, занимаюсь версткой и созданием сайтов.</p>
+					<p>Этот сайт сделал в рамках прохождения обучения по верстке на курсах от <a href="https://webcademy.ru/">WebCademy.ru</a></p>
+				</div>
+			</div>
+		</footer>
+		<script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+		<script src="./libs/jquery-validate/jquery.validate.js"></script>
+		<script src="./libs/nav/nav.js"></script>
+		<script src=".//libs/mixitup/mixitup.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "MPLUS 1p";
+    src: local("MPLUS1p-Black"), url("./../mplus1p/MPLUS1p-Black.ttf") format("ttf");
+}
+@font-face {
+    font-family: "MPLUS 1p";
+    src: local("MPLUS1p-Bold"), url("./../mplus1p/MPLUS1p-Bold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "MPLUS 1p";
+    src: local("MPLUS1p-ExtraBold"), url("./../mplus1p/MPLUS1p-ExtraBold.ttf") format("ttf");
+}
+@font-face {
+    font-family: "MPLUS 1p";
+    src: local("MPLUS1p-Light"), url("./../mplus1p/MPLUS1p-Light.ttf") format("ttf");
+}
+@font-face {
+    font-family: "MPLUS 1p";
+    src: local("MPLUS1p-Medium"), url("./../mplus1p/MPLUS1p-Medium.ttf") format("ttf");
+}
+@font-face {
+    font-family: "MPLUS 1p";
+    src: local("MPLUS1p-Regular"), url("./../mplus1p/MPLUS1p-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "MPLUS 1p";
+    src: local("MPLUS1p-Thin"), url("./../mplus1p/MPLUS1p-Thin.ttf") format("ttf");
+}
