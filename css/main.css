@@ -613,7 +613,7 @@ label.error {
     background-color: #fff;
     border-radius: 26px;
     color: #ea736d;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 800;
     position: absolute;
     z-index: 2;
@@ -626,8 +626,7 @@ label.error {
     /* Mobile-2 */
     /* Mobile */ }
     @media (max-width: 1199px) {
-      .cardd-img span {
-        font-size: 14px; } }
+    }
     @media (max-width: 767px) {
       .cardd-img span {
         font-size: 10px; } }
