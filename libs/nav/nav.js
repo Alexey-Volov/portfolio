@@ -1,23 +1,3 @@
-/*
- * jQuery One Page Nav Plugin
- * http://github.com/davist11/jQuery-One-Page-Nav
- *
- * Copyright (c) 2010 Trevor Davis (http://trevordavis.net)
- * Dual licensed under the MIT and GPL licenses.
- * Uses the same license as jQuery, see:
- * http://jquery.org/license
- *
- * @version 3.0.0
- *
- * Example usage:
- * $('#nav').onePageNav({
- *   currentClass: 'current',
- *   changeHash: false,
- *   scrollSpeed: 750
- * });
- */
-
-;
 (function ($, window, document, undefined) {
 
     // our plugin constructor
@@ -49,27 +29,21 @@
         },
 
         init: function () {
-            // Introduce defaults that can be extended either
-            // globally or using an object literal.
             this.config = $.extend({}, this.defaults, this.options, this.metadata);
 
             this.$nav = this.$elem.find(this.config.navItems);
 
-            //Filter any links out of the nav
             if (this.config.filter !== '') {
                 this.$nav = this.$nav.filter(this.config.filter);
             }
 
-            //Handle clicks on the nav
+
             this.$nav.on('click.onePageNav', $.proxy(this.handleClick, this));
 
-            //Get the section positions
             this.getPositions();
 
-            //Handle scroll changes
             this.bindInterval();
 
-            //Update the positions on resize too
             this.$win.on('resize.onePageNav', $.proxy(this.getPositions, this));
 
             return this;
@@ -91,13 +65,12 @@
             self.t = setInterval(function () {
                 docHeight = self.$doc.height();
 
-                //If it was scrolled
                 if (self.didScroll) {
                     self.didScroll = false;
                     self.scrollChange();
                 }
 
-                //If the document height changes
+
                 if (docHeight !== self.docHeight) {
                     self.docHeight = docHeight;
                     self.getPositions();
@@ -151,23 +124,17 @@
                     self.config.begin();
                 }
 
-                //Change the highlighted nav item
                 self.adjustNav(self, $parent);
 
-                //Removing the auto-adjust on scroll
                 self.unbindInterval();
 
-                //Scroll to the correct position
                 self.scrollTo(newLoc, function () {
-                    //Do we need to change the hash?
                     if (self.config.changeHash) {
                         window.location.hash = newLoc;
                     }
 
-                    //Add the auto-adjust on scroll back in
                     self.bindInterval();
 
-                    //End callback
                     if (self.config.end) {
                         self.config.end();
                     }
@@ -182,16 +149,13 @@
             var position = this.getSection(windowTop);
             var $parent;
 
-            //If the position is set
             if (position !== null) {
                 $parent = this.$elem.find('a[href$="#' + position + '"]').parent();
 
-                //If it's not already the current section
                 if (!$parent.hasClass(this.config.currentClass)) {
-                    //Change the highlighted nav item
+
                     this.adjustNav(this, $parent);
 
-                    //If there is a scrollChange callback
                     if (this.config.scrollChange) {
                         this.config.scrollChange($parent);
                     }

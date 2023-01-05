@@ -33,7 +33,7 @@ $(document).ready(function(){
     for(let item of formItems) {
     const thisParent = item.closest('.form-item');
     const thisPlaceholder = thisParent.querySelector('.fake-placeholder');
-    // Если инп в фокусе
+    
     item.addEventListener('focus', function(){
         thisPlaceholder.classList.add('active');
     });
@@ -52,13 +52,13 @@ $(document).ready(function(){
 
 		let string = $(".contact-form").serialize();
 
-		//Формируем ajax запрос
+		
 		$.ajax({
 			type: "POST",
 			url: "php/mail.php",
 			data: string,
 
-			// Функция если все прошло успешно
+			
 			success: function (html) {
 				$(".contact-form").slideUp(800);
 				$('#answer').html(html);
@@ -115,14 +115,13 @@ $(document).ready(function(){
 	});
 
 	function calcScrollProgress() {
-		let scrollScale = document.querySelector('.progressbar-scale'); // Шкала прогресса для скрола
-		let scrollTop = window.scrollY; // На сколько px проскролили от верха страницы
-		let docHeight = document.body.offsetHeight; // Высота всего документа
-		let winHeight = window.innerHeight; // Высота окна в браузере
-		let scrollPercent = scrollTop / (docHeight - winHeight); // На сколько % проскролили = 0.22
-		let scrollPercentRounded = Math.round(scrollPercent * 100); // На сколько % проскролили коуруглили = 22
+		let scrollScale = document.querySelector('.progressbar-scale');
+		let scrollTop = window.scrollY; 
+		let docHeight = document.body.offsetHeight;
+		let winHeight = window.innerHeight;
+		let scrollPercent = scrollTop / (docHeight - winHeight); 
+		let scrollPercentRounded = Math.round(scrollPercent * 100); 
 	
-		// Изменяем длинну scrollScale
 		scrollScale.style.width = scrollPercentRounded + '%';
 	}
 
@@ -135,7 +134,6 @@ $(document).ready(function(){
 		
     }
 	displayMonth()
-	// Запускаем пересчет индикатора:
-	document.addEventListener('scroll', calcScrollProgress); // При скроле страницы
-	window.addEventListener('resize', calcScrollProgress); // При ресайзе окна
+	document.addEventListener('scroll', calcScrollProgress); 
+	window.addEventListener('resize', calcScrollProgress); 
 })
